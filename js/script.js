@@ -163,7 +163,7 @@ function update() {
         ball.velocityX = (player === user ? 1 : -1) * ball.speed * Math.cos(angle);
         ball.velocityY = ball.speed * Math.sin(angle);
 
-        ball.speed += 1;
+        ball.speed += 0.2;
     }
 }
 
