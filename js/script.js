@@ -77,6 +77,7 @@ function drawBall(x, y, radius, color){
 window.addEventListener('keydown', keyDownHandler);
 window.addEventListener('keyup', keyUpHandler);
 
+//This event is to check if a key in keyboard is pressed
 function keyDownHandler(event) {
     switch (event.keyCode) {
         case 38:
@@ -88,6 +89,7 @@ function keyDownHandler(event) {
     }
 }
 
+//This event is to check if a key is not pressed
 function keyUpHandler (event) {
     switch (event.keyCode) {
         case 38:
